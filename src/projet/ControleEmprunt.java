@@ -9,7 +9,7 @@ import java.util.*;
 public class ControleEmprunt {
 	private final Index index;
 	private final ServiceEmprunt serviceEmprunt;
-	//Constructeur du contrôleur
+	//Constructeur du contrôleur d'emprunt
 	public ControleEmprunt(Index index, ServiceEmprunt serviceEmprunt) {
 		this.index = index;
 		this.serviceEmprunt = serviceEmprunt;
