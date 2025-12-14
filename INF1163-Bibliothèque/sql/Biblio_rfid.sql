@@ -1,0 +1,4 @@
+CREATE TYPE dbo.RfidList AS TABLE (
+  rfid CHAR(6) NOT NULL PRIMARY KEY
+);
+GO
