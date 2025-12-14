@@ -43,7 +43,8 @@ public class Main {
 	    	System.out.println("Nombre d'exemplaires: " + res.nbExemplaires());
 	    	System.out.println("Date de retour: " + res.dueDate());
 	    	System.out.println("===========\n");
-	    	
+	    	scanner.close();
+
 	    } catch (Exception e) {
 	    	System.out.println("X Erreur: " + e.getMessage());
 	    }
