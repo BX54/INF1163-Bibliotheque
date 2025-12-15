@@ -16,9 +16,9 @@ INSERT INTO Books (title, author, edition, release_year, page_number) VALUES
 (N'Introduction to Algorithms', N'Cormen et al.', N'3rd', 2009, 1312),
 (N'Effective Java', N'Joshua Bloch', N'3rd', 2018, 416),
 (N'Operating System Concepts', N'Silberschatz et al.', N'10th', 2018, 976),
-(N'Computer Networks', N'Andrew S. Tanenbaum', N'5th', 2011, 960),
+(N'Computer Networks', N'Andrew S. Tanenbaum', N'5th', 2011, 951),
 (N'Artificial Intelligence: A Modern Approach', N'Russell; Norvig', N'4th', 2020, 1152),
-(N'Head First Design Patterns', N'Eric Freeman; Elisabeth Robson', N'2nd', 2020, 694);
+(N'Head First Design Patterns', N'Eric Freeman; Elisabeth Robson', N'2nd', 2020, 672);
 GO
 
 ;WITH b AS (
