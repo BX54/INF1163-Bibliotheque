@@ -11,7 +11,7 @@ public class Catalogue {
 	public List<vueExemplaire> loadAllCopies() throws SQLException {
 		//Requête sql pour récupérer toutes les copies 
 		String sql = """ 
-				SELECT c.rfid, b.title, b.author, c.is_borrowed 
+				SELECT c.rfid, b.title, b.author, b.edition, c.is_borrowed 
 				FROM Copies c
 				JOIN Books b ON b.book_id = c.book_id
 				ORDER BY c.rfid
@@ -25,6 +25,7 @@ public class Catalogue {
 								rs.getString("rfid"),
 								rs.getString("title"),
 								rs.getString("author"),
+								rs.getString("edition"),
 								rs.getBoolean("is_borrowed")
 								));
 					}
